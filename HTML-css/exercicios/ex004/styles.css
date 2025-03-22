@@ -1,0 +1,230 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    padding: 20px 0;
+    border-bottom: #ff6600 3px solid;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1600x900?text=Tibia+Background') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.news {
+    padding: 20px 0;
+    background: #262626;
+}
+
+.news h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-card {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+}
+
+.news-card h3 {
+    margin: 10px 0;
+}
+
+.news-card p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.news-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.worlds {
+    padding: 20px 0;
+    background: #1a1a1a;
+}
+
+.worlds h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.worlds-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.world-card {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.world-card img {
+    width: 100%;
+    height: auto;
+}
+
+.world-card h3 {
+    margin: 10px 0;
+}
+
+.world-card p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.community {
+    padding: 20px 0;
+    background: #262626;
+    text-align: center;
+}
+
+.community .btn {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.login {
+    padding: 20px 0;
+    background: #1a1a1a;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #333;
+    border: 1px solid #444;
+}
+
+.login form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    background: #222;
+    color: #fff;
+}
+
+.login form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login form button:hover {
+    background: #cc5500;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
