@@ -6,18 +6,20 @@ escolha = int(input('1 - Pedra'
                     '\nEscolha a opção: '))
 pc = random.choice(['Pedra', 'Papel', 'Tesoura'])
 vc = 'Pedra' if escolha == 1 else 'Papel' if escolha == 2 else 'Tesoura'
+print('-=' * 12)
 print('O computador jogou {}\nVocê jogou {}.'.format(pc, vc))
 if pc == vc:
-    print('Empate!')
+    print('\033[1:30:44mEmpate!\033[m')
 if pc == 'Pedra' and vc == 'Tesoura':
-    print('Perdeu!')
+    print('\033[1:30:41mPerdeu!\033[m')
 elif pc == 'Pedra' and vc == 'Papel':
-    print('Ganhou!')
+    print('\033[1:30:42mGanhou!\033[m')
 elif pc == 'Papel' and vc == 'Tesoura':
-    print('Ganhou!')
+    print('\033[1:30:42mGanhou!\033[m')
 elif pc == 'Papel' and vc == 'Pedra':
-    print('Perdeu!')
+    print('\033[1:30:41mPerdeu!\033[m')
 elif pc == 'Tesoura' and vc == 'Pedra':
-    print('Ganhou!')
+    print('\033[1:30:42mGanhou!\033[m')
 elif pc == 'Tesoura' and vc == 'Papel':
-    print('Perdeu!')
+    print('\033[1:30:41mPerdeu!\033[m')
+print('-=' * 12)

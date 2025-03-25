@@ -12,6 +12,9 @@ elif opcao == 2:
     parcela = valor * 0.95
 elif opcao == 3:
     parcela = valor * 1
+    print('O valor de cada parcela vai ser de R${:.2f}'.format(parcela / 2))
 elif opcao == 4:
+    x = int(input('Digite a quantidade de parcelas: '))
     parcela = valor * 1.2
+    print('O valor de cada parcela vai ser de R${:.2f}'.format(parcela / x))
 print('O valor total do produto vai ser R${:.2f}'.format(parcela))
