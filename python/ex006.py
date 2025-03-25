@@ -1,5 +1,0 @@
-mat = float(input('Qual a nota em matematica? '))
-por = float(input('Qual a nota em portugues? '))
-bio = float(input('Qual a nota em biologia? '))
-media = float((mat + por + bio)/3)
-print('Sua média foi de {:.2f} '.format (media))

@@ -1,5 +1,0 @@
-print("Hello World!")
-nome = input('Qual seu nome?')
-resposta = input(' voce é feliz?')
-if resposta == 'sim': print("Eu já sabia!")
-if not resposta == 'sim': print("nao minta para mim!")
