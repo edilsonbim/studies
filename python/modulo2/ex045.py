@@ -21,5 +21,3 @@ elif pc == 'Tesoura' and vc == 'Pedra':
     print('Ganhou!')
 elif pc == 'Tesoura' and vc == 'Papel':
     print('Perdeu!')
-
-

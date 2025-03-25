@@ -1,5 +1,5 @@
-casa = float(input('Digite o valor da casa: '))
-salario = float(input('Digite o seu salario: '))
+casa = float(input('Digite o valor da casa: R$'))
+salario = float(input('Digite o seu salario: R$'))
 anos = int(input('Digite em quantos anos voce quer pagar: ')) * 12
 parcela = casa / anos
 if parcela <= salario * 0.3:
