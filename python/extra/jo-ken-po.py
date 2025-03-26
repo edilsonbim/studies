@@ -40,4 +40,4 @@ for c in range(0, 5):
         placarpc = placarpc + 1
     print('\033[1:30:46m-=\033[m' * 12)
     print('     \033[2:30:45m{} CPU x VOCE {}\033[m     '.format(placarpc,placarvc))
-    print(c)
+input()
