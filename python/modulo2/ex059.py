@@ -1,3 +1,4 @@
+from time import sleep
 menu = 4
 n1 = 0
 n2 = 0
@@ -23,4 +24,10 @@ while menu != 5:
             print('Os numeros {} e {} são iguais!\n'.format(n1, n2))
         else:
             print('O numero {} é maior que o {}\n'.format(n2, n1))
-print('Fim do programa!')
+    elif menu == 4:
+        print('Limpando dados...\n')
+        sleep(1)
+    elif menu == 5:
+        print('Fim do programa!')
+    else:
+        print('Opção invalida. Tente novamente.')

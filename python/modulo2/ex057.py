@@ -1,6 +1,6 @@
 sexo = ''
 while sexo != 'M' and sexo != 'F':
-     sexo = str(input('Qual seu sexo? Digite [M/F]: ')).upper().strip()
+     sexo = str(input('Qual seu sexo? Digite [M/F]: ')).upper().strip()[0]
      if sexo != 'M'and sexo != 'F':
         print('Sexo nao reconhecido. Tente novamente.')
 if sexo == 'M':
