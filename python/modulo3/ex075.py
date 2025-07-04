@@ -1,7 +1,7 @@
 lista = [int(input('Digite um número: '))]
 lista = lista + [int(input('Digite outro número: '))]
 lista = lista + [int(input('Digite mais um número: '))]
-lista = lista + [int(input('Digite opo último número: '))]
+lista = lista + [int(input('Digite o último número: '))]
 print(f'Você digitou os valores {lista}')
 c = 0
 
